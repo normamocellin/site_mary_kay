@@ -1,0 +1,43 @@
+body {
+    height:100%;
+    width: 100%;
+}
+
+header {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+    font-size: 2rem;
+}
+
+.logo_mk {
+    position: fixed;
+    width: 5.625rem;
+    height: 3rem;
+    top: 0.75rem;
+    left: 0.75rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.quem {
+    padding: 0.5rem;
+    border-bottom: 0.1rem solid black;
+    width: 4rem;
+ }
+
+ .sobre {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-evenly;
+     font-size: 0.75rem;
+ }
+
+ .perfil_img
